@@ -1,11 +1,8 @@
 CREATE SCHEMA usersDB; 
 CREATE TABLE usersDB.Users (
-    username VARCHAR(50) PRIMARY KEY NOT NULL 
+    UserID INT, 
+    LastName VARCHAR(255), 
+    FirstName VARCHAR(255), 
+    Address VARCHAR(255), 
+    City VARCHAR(255)
 ); 
-INSERT INTO usersDB.Users
-  VALUES
-    ("theresa123"), 
-    ("joey456"), 
-    ("mary789");
-SELECT * FROM Users; 
-TRUNCATE Users; 
