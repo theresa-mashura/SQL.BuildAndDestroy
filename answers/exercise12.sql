@@ -1,1 +1,1 @@
-SELECT * FROM Students ORDER BY Country, City; 
+SELECT * FROM Students ORDER BY City DESC;
